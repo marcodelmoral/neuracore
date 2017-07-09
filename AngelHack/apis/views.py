@@ -458,7 +458,7 @@ class CreateViewCotizacion(generics.ListCreateAPIView):
     cotizacion = difusa.fuzzy()
     cotizacion = difusa.cotizacion(difusa.calcula(100, 15, 3, cotizacion), 10, 3, 5, 6, 8, 6, 4)
     cot.cotizacion = cotizacion
-    cot.save()
+    # cot.save()
     queryset = Cotizacion.objects.all()
     serializer_class = CotizacionSerializer
 
