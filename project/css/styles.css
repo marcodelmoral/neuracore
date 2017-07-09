@@ -1,0 +1,44 @@
+.b{
+	border-right: 2px #000 solid;
+	border-left: 2px #000 solid;
+	height: 10vh;
+}
+
+.f{
+background-color: pink}
+
+.menu{
+	color: white;
+	height: 15vh;
+}
+
+.v{
+	background-color: pink;
+}
+.srv{
+	font-size: 1.4em;
+}
+
+.white-button:hover{
+	background-color: #000 !important; 
+	border-left:1px white solid !important;
+	border-right:1px white solid !important;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.black-button:hover{
+	background-color: white !important; 
+	border-left:1px #000 solid !important;
+	border-right:1px #000 solid !important;
+	color: #000;
+}
+
+#cliente{
+	cursor:pointer;
+}

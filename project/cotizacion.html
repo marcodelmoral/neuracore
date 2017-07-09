@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css"> 
+
+    </head>
+    <body>
+        
+        <div class="container-fluid" style="height:100vh; width:100vw">
+            
+            <div class="row align-items-center" style="height: 13vh;">
+                <div class="col">
+                    <a href="#">
+                        <img width="200"; src="images/logo7.png">
+                    </a>
+                </div>
+                
+                <a href="proyecto.html" class="white-button"><div class="col-1 white-button">
+                    Proyectos
+                </div></a>
+                <a href="seleccion.html"><div class="col-1 white-button">
+                    Cotizar
+                </div></a>
+
+                <div class="col-2">
+                    Nombre y Apellido
+                </div>   
+
+                <div class="col-2">
+                    imagen
+                </div>     
+            </div>   
+
+            <div class="row">
+                <div class="col-2">
+                    <div class="row align-items-center bg-inverse text-white" style=" height:100vh">
+                        <div class="col-12 mb-5 d-flex justify-content-center align-items-center" >
+                        </div>
+                        <div class="col-12 text-center menu black-button">Información del proyecto</div>
+                        <div class="col-12 text-center menu black-button">Calendario</div>
+                        <div class="col-12 text-center menu black-button">Evaluación de proyecto</div>
+                        <div class="col-12 text-center menu black-button">Tabla de pagos</div>
+                    </div>
+                </div>
+                <div class="col-10">
+
+                    <div class="row">
+                        <div class="col-8">
+                            ETAPA: 001 - INVESTIGACIÓN Y MARCO TEÓRICO <BR/>
+                                Etapa que permitirá responder todas la preguntas técnicas y garantizará el correcto funcionamiento del futuro
+                                producto, de forma que las personas involucradas conocerán todos los pormenores técnicos y funcionales de la
+                                tecnología que será aplicada para resolver la problemática presentada.
+                        </div>
+                        <div class="col-4">
+                            TIEMPO:<span id="e1-t"></span><BR/><BR/>
+                            COSTO:<span id="e1-c"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <BR/>ETAPA: 002 - DISEÑO CONCEPTUAL
+                            En esta etapa se generarán las propuestas de solución funcional a la problemática solicitada y se realizará la
+                            experimentación técnica para garantizar el correcto funcionamiento del futuro producto, así mismo se presentarán
+                            las propuestas de estética, interfaz de usuario e interacción con el futuro producto.
+                        </div>
+                        <div class="col-4">
+                            <BR/>TIEMPO:<span id="e2-t"></span><BR/><BR/>
+                            COSTO:<span id="e2-c"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <BR/>ETAPA: 003 - DESARROLLO DE LA INGENIERÍA DEL PRODUCTO
+                            Una vez elegida una propuesta se solución se realizará el desarrollo de las piezas y sistemas que integrarán el
+                            producto final, interacciones entre componentes, ensambles, herrajes y acabados, de forma que puedan ser
+                            producidos a la escala solicitada. Así mismo se desarrollará toda la información necesaria para fabricar un
+                            prototipo que probará el funcionamiento del producto y servirá para realizar ajustes antes de realizar la información
+                            de producción definitiva del producto solicitado. Así mismo durante esta etapa se comenzará el desarrollo de
+                            proveedores que fabricarán tanto el prototipo como el producto final.
+                        </div>
+                        <div class="col-4">
+                            <BR/>TIEMPO:<span id="e1-t"></span><BR/><BR/>
+                            COSTO:<span id="e1-c"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <BR/>ETAPA:004 - IMPLEMENTACIÓN
+Una vez aprobado el prototipo se procederá a realizar la información definitiva que permitirá fabricar el producto a
+la escala solicitada, dicha informacion incluirá planos técnicos, archivos originales para corte CNC (en caso de ser
+requeridos), diagramas de ensamblaje y montaje, lista de componentes, especificaciones de acabados,
+especificaciones de proveedores y planificación de la producción. Así mismo se capacitará al personal que se
+encargará del montaje final del producto y se proveerá de toda la información de costos de produción que será de
+utilidad para fijar el precio final del producto a comercializar.
+                        </div>
+                        <div class="col-4">
+                            <BR/>TIEMPO:<span id="e1-t"></span><BR/><BR/>
+                            COSTO:<span id="e1-c"></span>
+                        </div>
+                    </div>  
+                    <div class="row">
+                        <div class="col-4">
+                            <a href="seleccion.html"><button type="button" class="btn btn-secondary white-button" style="border-top: 0; border-bottom:0; border-radius: 0; width:30%; border:1px #000 solid;border-top: 0; border-bottom:0;">Regresar</button></a>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-secondary white-button" style="border-top: 0; border-bottom:0; border-radius: 0; width:30%; border:1px #000 solid;border-top: 0; border-bottom:0;">Aprobar</button>
+                        </div>
+                        <div class="col-3">
+                            <BR/>TIEMPO:<span id="e1-t"></span><BR/><BR/>
+                                COSTO:<span id="e1-c"></span>
+                        </div>
+                    </div>                   
+
+                    <div class="row align-items-end">
+                        
+                        <div onclick="openChat()" class="col-1 offset-md-11 align-self-end text-center white-button srv">
+                            Chat
+                        </div>
+
+                        <div id="chat" style="visibility:hidden; position: absolute; bottom: 45px; right: 0; height: 270px; width: 38%;">
+                            <div style="width:50%;position: absolute; background-color: black; height: 100%; color:white;">
+                            <p style="font-size:0.8em; position: absolute; bottom: 10px; right: 5px;">Hola, en que puedo ayudarte</p>
+                            </div>
+
+                             <div style="width:50%; right:0px; position: absolute; background-color: white; height: 100%; color:black; border:1px #000 solid; border-top:4px #000 solid;">
+                                <p style="font-size:1em; position: absolute; top: 0px; right: 0px; background-color: #000; width: 100%; color:white;">Especialista-1 <img src="images/x.png" width="25" style="position: absolute; right: 0px;" onclick="hideChat()"></p>
+                                <p style="font-size:1em; position: absolute; top: 30px; right: 100px;">Especialista-2 </p>
+                                <p style="font-size:1em; position: absolute; top: 60px; right: 100px;">Especialista-3 </p>
+                                <p style="font-size:1em; position: absolute; top: 90px; right: 100px;">Especialista-4 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>      
+
+
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
